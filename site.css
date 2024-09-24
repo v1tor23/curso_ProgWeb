@@ -1,3 +1,8 @@
+body{
+    display: grid;
+    justify-content: center;
+}
+
 a{
     background-color: rgb(255, 255, 255);
     padding: 10px 20px;
@@ -19,11 +24,9 @@ h1{
 .grid{
     display: grid;
     grid-template-columns: 500px 500px;
-    gap: 200px;
-    justify-content: left;
-    align-content: end;
+    gap: 20px;
     background-color: rgb(255, 255, 255);
-    padding: 1px;
+
     margin-top: 60px;
 }
 
@@ -45,7 +48,7 @@ h2{
 }
 
 .laranja{
-    background-color: #ee2211;
+    background-color: rgb(255, 187, 0);
     color: #ffffff;
     text-decoration: none;
     padding: 8px 12px;
@@ -59,23 +62,19 @@ h2{
 
 .invi{
     grid-template-columns: 500px 500px;
+    display: flex;
+    justify-content: center;
     gap: 200px;
-    justify-content: left;
-    align-content: end;
-    background-color: #c6c6c6;
-    padding: 200px;
-    margin-top: 20px;
-    color: #f7f7f7;
-    display: inline-block;
-    margin: 0px;
+    align-content: center;
+    color: #c2bfbf;
+    font-size: 30px;
 }
 
-.v{
-    grid-template-columns: 500px 500px;
-    gap: 200px;
-    background-color: #f7f7f7;
-    padding: 200px;
-    margin-top: 20px;
+samp{
+    color: #ee2211;
     display: inline-block;
-    margin: 0px;
+}
+
+.habili{
+    width: 30px;
 }
