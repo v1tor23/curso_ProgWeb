@@ -25,8 +25,7 @@ h1{
     display: grid;
     grid-template-columns: 500px 500px;
     gap: 20px;
-    background-color: rgb(255, 255, 255);
-
+    background-color: #f7f7f7;
     margin-top: 60px;
 }
 
@@ -77,4 +76,7 @@ samp{
 
 .habili{
     width: 30px;
+}
+.uai{
+    background-color: #f7f7f7
 }
