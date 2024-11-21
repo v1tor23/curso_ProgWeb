@@ -1,0 +1,25 @@
+main img{ 
+    width: calc(1000rem/16);
+    max-width: 100%;;
+
+   
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 50px;
+    padding: 48px;
+}
+
+.main h1{
+    max-width: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 72px;
+}
+
+p{
+    font-size: 24px;
+}
+
+
