@@ -85,7 +85,7 @@ section{
 }
 
 .form{
-    color:  rgb(136, 0, 170);
+    color:  #8800aa;
 }
 
 .formacao{
@@ -104,7 +104,7 @@ section{
     border-radius: 4px;
     padding: 15px;
     font-size: 16px;
-    gap: 30px;
+    position: relative;
 }
 
 .roxo{
@@ -123,6 +123,7 @@ section{
 
 .cinza{
     color: rgb(189, 187, 187);
+    margin: 0px 0px 10px;
 }
 
 .blocos h3{
@@ -170,12 +171,51 @@ footer .cinza{
 .blocos::before{
     content: '';
     display: inline-block;
-    top: 23px;
-    left: -16px;
+    top: 45px;
+    left: -4px;
     position: absolute;
     width: -2px;
     height: 12px;
     background-image: linear-gradient(to top, rgb(4, 92, 255), rgb(136, 0, 170), rgb(255, 0, 234));
     border:calc(2rem/16) solid  rgb(212, 0, 255);
-    margin-right:calc(10rem/16);
+ 
+}
+
+.blocos h3{
+    margin: 0px 0px 40px;
+}
+
+.img_no_lugar{
+   position: relative;
+}
+
+.img_no_lugar h3::before{
+    content: '';
+    display: block;
+    top: 19px;
+    left: -40px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background:url(icons8-livro-aberto-48_resized.png) no-repeat center center;
+}
+
+.img_no_lugar2 h3::before{
+    content: '';
+    display: block;
+    top: 19px;
+    left: -40px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background:url(icons8-tradução-64_resized.png) no-repeat center center;
+}
+
+.img_no_lugar2{
+    position: relative;
+}
+
+.img_no_lugar span{
+    color: white;
+    
 }
